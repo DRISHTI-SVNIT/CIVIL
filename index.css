@@ -57,8 +57,18 @@
 
 }
 
+.rounded-social-buttons .social-button.location {
+
+    background : #ffffff;
+
+}
+
 .social-button a {
     outline: 0 !important;
+}
+
+.dropdown-item {
+    padding-left: %;
 }
 
 /* a:focus, a:hover {
