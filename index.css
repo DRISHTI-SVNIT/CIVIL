@@ -67,10 +67,10 @@
     outline: 0 !important;
 }
 
-.dropdown-item {
-    padding-left: %;
+.dropdown-item  a {
+    border-style: ridge;
+    border-color: black;
 }
-
 /* a:focus, a:hover {
     outline: 0 !important;
 } */
