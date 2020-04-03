@@ -15,6 +15,7 @@
 
  .rounded-social-buttons {
      text-align: center;
+     margin: 50px;
  }
  
  .rounded-social-buttons .social-button {
@@ -146,6 +147,51 @@
     left: 0;
 }
 
+.bottom_location{
+    text-align: justify ;
+    margin-top: 30px ;
+    font-size: 20px;
+}
+
+.civil_photo {
+    height:auto;
+    width: 70%; 
+    margin-left: 5%;
+}
+
+.svnit_photo {
+    height:100px;
+    width:200px;
+    margin-left: 5%;
+}
+
+.tensegrity_photo {
+    display: block;
+     margin-left: auto;
+     margin-right: auto; 
+     width: 25%; 
+     height: 25%;
+}
+
+.bridge_photo {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 30%; 
+    height: 30%;
+}
+
+.truss_photo {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+
+.bottom_location .rounded-social-buttons {
+    margin-right: 10px;
+}
+
  @media (max-width: 600.98px) { 
      .con{
          border:2px solid transparent;
@@ -156,6 +202,9 @@
  @media (max-width: 600.98px) { 
      .hello1{
          height: 250px;
+         padding-right: 5%;
+         padding-left: 5%;
+         
      }
  }
  @media (max-width: 600.98px) { 
@@ -187,3 +236,78 @@
                 .hello7{
                     text-align:center;
                 }
+
+@media (max-width : 600.98px) {
+    .con {
+        margin-right: 5%;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        height: 75px;
+        width: 150px;
+    }
+    .civil_photo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hello1 {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rounded-social-buttons {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rounded-social-buttons .social-button {
+        display: inline-block;
+        position: relative !important;
+        cursor: pointer !important;
+        width: 3.125rem !important;
+        height: 3.125rem !important;
+        border: 0.125rem solid transparent;
+        padding: 0;
+        text-decoration: none;
+        text-align: center;
+        color: #fefefe;
+        font-size: 1.5625rem;
+        font-weight: normal;
+        line-height: 2em;
+        border-radius: 1.6875rem;
+        transition: all 0.5s ease;
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .bottom_location {
+        font-size: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+    
+    .heading {
+        font-size: 35px;
+    }
+    .project_photo , .tensegrity_photo, .truss_photo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .bridge_photo{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 105%;
+    }
+   
+}
