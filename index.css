@@ -40,11 +40,23 @@
 
 }
 
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
 .rounded-social-buttons .social-button.facebook {
 
     background: #3b5998;
 
 }
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
 
 .rounded-social-buttons .social-button.linkedin {
 
@@ -52,11 +64,23 @@
 
 }
 
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+
 .rounded-social-buttons .social-button.youtube {
 
     background: #bb0000;
 
 }
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
 
 .rounded-social-buttons .social-button.location {
 
