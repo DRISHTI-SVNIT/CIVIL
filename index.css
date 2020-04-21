@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-nav{
-    font-family: Bookman Header;
+    font-family: Bookman Header !important;
     font-size: 22px;
 }
 .con{
