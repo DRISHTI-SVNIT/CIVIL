@@ -1,0 +1,149 @@
+.earthquake {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.sustainable {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 80%;
+    padding-top: 8%;
+}
+.tensegrity {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.geodesic {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.diagrid {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 40%;
+    padding-top: 5%;
+}
+.truss {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 60%;
+    padding-top: 5%;
+}
+
+@media(max-width:1500px) {
+    .earthquake {
+        width: 60%;
+        
+    }
+    .sustainable {
+        width: 95%;
+        padding-top: 15%;
+    }
+    .geodesic {
+        margin-top: 10%;
+    }
+    .diagrid {
+        padding-top: 10%;
+        width: 55%;
+    }
+    .truss {
+        width: 70%;
+    }
+}
+
+@media(max-width:1200px) {
+    .earthquake {
+        width: 80%;
+        padding-top: 10%;
+
+    }
+    .sustainable {
+        width: 95%;
+        padding-top: 30%;
+    }
+    .tensegrity {
+        width: 70%;
+    }
+    .geodesic {
+        margin-top: 25%;
+    }
+    .diagrid {
+        padding-top: 10%;
+        width: 60%;
+    }
+    .truss {
+        width: 70%;
+        padding-top: 15%;
+    }
+}
+
+@media(max-width : 990px) {
+    .earthquake {
+        width: 90%;
+        /* height: 60%; */
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .sustainable {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .geodesic {
+        margin-top: 0px;
+        padding-top: 0%;
+    }
+    .diagrid {
+        width:  30%;
+    }
+    .truss {
+        width: 60%;
+        padding-top: 0%;
+    }
+
+}
+
+
+
+@media(max-width : 600px) {
+    .earthquake {
+        /* height: 70%; */
+        width: 80%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .sustainable {
+        width: 90%;
+        padding-bottom: 2%;
+        padding-top: 0%;
+    }
+    .tensegrity {
+        width: 50%;
+        
+    }
+    .geodesic {
+        margin-top: 0%;
+    }
+    .diagrid {
+        width: 40%;
+    }
+    .truss {
+        width: 70%;
+        padding-top: 0%;
+    }
+}
+
