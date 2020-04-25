@@ -4,6 +4,8 @@ html {
 
 body {
     overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .bgr {
@@ -15,8 +17,8 @@ body {
 }
 
 .navbar-nav{
-    font-family: Bookman Header !important;
-    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 .con{
     border:2px solid transparent;
@@ -80,7 +82,7 @@ body {
      width: 1300;
  }
  h3 {
-     font-family: Bookman Header;
+     font-family: 'Times New Roman', Times, serif;
      font-style: bold;
  }
 
@@ -224,14 +226,6 @@ body {
                 }
 
 @media (max-width : 600.98px) {
-    .bgr {
-        background-image: url(images/dome.png);
-        background-size:cover 
-        background-color: rgba(255,255,255,0.7); 
-        background-blend-mode: lighten;
-        background-repeat: no-repeat;
-    }
-    
     .con {
         margin-right: 5%;
     }
