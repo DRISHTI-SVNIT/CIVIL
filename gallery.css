@@ -11,3 +11,8 @@
     height: 500px;
     margin-bottom: 150px;
 }
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
