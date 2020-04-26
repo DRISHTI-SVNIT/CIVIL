@@ -106,9 +106,9 @@
 }
 
 @media(max-width:338px) {
-    .bd {
+    /* .bd {
         height:200px;
         margin-bottom:0px;
         margin-top: 0px;
-    }
+    } */
 }
