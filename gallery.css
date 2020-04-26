@@ -105,9 +105,10 @@
     }
 }
 
-@media(max-width:337px) {
+@media(max-width:338px) {
     .bd {
         height:200px;
-        /* margin-top: 50px; */
+        margin-bottom:0px;
+        margin-top: 0px;
     }
 }
