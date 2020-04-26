@@ -1,4 +1,4 @@
-.hello1 {
+.hello1, .bd  {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -21,11 +21,12 @@
 }
 
 @media(max-width:1200px) {
-    .hello1 {
+    .hello1 , .bd {
         height: 600px;
         padding-right: 5%;
         padding-left: 5%;
     }
+
     .gd {
         height: 400px;
         margin-top: 100px;
@@ -45,6 +46,11 @@
         padding-right: 5%;
         padding-left: 5%;
     }
+    .bd {
+        height: 400px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     .gd {
         height: 250px;
         margin-top: 75px;
@@ -60,6 +66,11 @@
 
 @media(max-width : 600px) {
     .hello1 {
+        height: 250px;
+         padding-right: 5%;
+         padding-left: 5%;
+    }
+    .bd {
         height: 250px;
          padding-right: 5%;
          padding-left: 5%;
@@ -91,5 +102,12 @@
         /* width: 80%; */
         margin-top: 50px;
         margin-bottom: 0px;
+    }
+}
+
+@media(max-width:337px) {
+    .bd {
+        height:200px;
+        /* margin-top: 50px; */
     }
 }
