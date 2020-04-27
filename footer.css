@@ -1,3 +1,8 @@
+.svg-inline--fa {
+   vertical-align: -0.200em !important;
+ }
+
+
 .rounded-social-buttons {
     text-align: center;
     margin: 50px;
@@ -49,6 +54,17 @@
 
 }
 
+.rounded-social-buttons .social-button.insta {
+   background : radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
    color: #007bb5;
    background: #fefefe;
@@ -59,6 +75,14 @@
 
    background: #bb0000;
 
+}
+
+.rounded-social-buttons .social-button.insta:hover, .rounded-social-buttons .social-button.insta:focus {
+   background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    color: white;
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
 }
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
@@ -83,11 +107,29 @@
     font-size: 20px;
 }
 
+@media(max-width : 978px) {
+   .hello {
+      padding-top: 50px;
+   }
+}
+
 @media(max-width : 600.98px)
 {
-    .rounded-social-buttons {
+   .hi {
+      margin-left: 0px;
+      margin-right: 0px;
+   } 
+   
+   .contai {
+      margin-right: 0px;
+      margin-left: 0px;
+   }
+
+   .rounded-social-buttons {
         margin-left: 0px;
         margin-right: 0px;
+        padding-right: 0px;
+        padding-right: 0px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -108,7 +150,7 @@
         line-height: 2em;
         border-radius: 1.6875rem;
         transition: all 0.5s ease;
-        margin-right: 0.25rem;
+        /* margin-right: 0.25rem; */
         margin-bottom: 0.25rem;
     }
 
@@ -117,4 +159,13 @@
         text-align: justify;
         box-sizing: border-box;
     }
+}
+
+@media(max-width:343px) {
+   .rounded-social-buttons .social-button {
+      width: 2.750rem !important;
+      height: 2.75rem !important;
+      border-radius: 1.4876rem;
+      font-size: 1.3625rem;
+   }
 }
