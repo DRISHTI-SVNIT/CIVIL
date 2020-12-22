@@ -143,9 +143,11 @@ body {
 }
 
 .svnit_photo {
-    height:100px;
-    width:200px;
+    width:180px;
+    height: auto;
     margin-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .tensegrity_photo {
@@ -247,8 +249,9 @@ body {
     }
     .svnit_photo {
         margin-left: 0%;
-        height: 75px;
-        width: 150px;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
     }
     .civil_photo {
         display: block;
