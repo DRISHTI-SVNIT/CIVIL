@@ -1,251 +1,369 @@
-html {
+html
+{
     overflow-x: hidden;
 }
-
-body {
-    overflow-x: hidden;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-.bgr {
-    background-image: url(images/2v_dome-2.png);
-    background-size:100% 100%; 
-    background-color: rgba(255,255,255,0.7); 
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-}
-
-.about-heading {
-    text-align: left;
-}
-
 .navbar-nav{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    /* font-family: Arial; */
+    font-size: 20px;
 }
-.con{
-    border:2px solid transparent;
-     padding-left: 50px;
-     padding-right: 50px;
- }
- .cont {
-    border:2px solid transparent;
-    background-color: rgba(0, 0, 0, 0.3);
-    margin-left: 5%;
-    margin-right: 5%;
-    /* margin-top: 2%; */
-    margin-bottom: 5%;
-    color: black;
-    
-}
- 
- .contact{
-     padding-left: 90px;
-     padding-right: 90px;
- }
 
- 
-.dropdown-item  a {
-    border-style: ridge;
-    border-color: black;
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
 }
-.dropdown-item:hover {
-    background-color: rgb(100,100,100);
-}
-/* a:focus, a:hover {
-    outline: 0 !important;
-} */
 
- /* ul li:hover{
-     background-color:rgb(211,211,211);
-     font-weight: bolder;
- } */
- .carousel-item{
-     padding-right: 0px;
-     padding-left: 0px;
- }
- .hello1{
-    height: 720px;
-     width: 1250;
- }
- .gd {
-     margin-left: auto;
-     margin-right: auto;
-     display: inline-block;
-     width: 60%;
-     margin-top: 5%;
-     margin-bottom: 7%;
- }
- .hello2{
-    height: 720px;
-     width: 1300;
- }
- .hello3{
-    height: 720px;
-     width: 1300;
- }
- h3 {
-     font-family: 'Times New Roman', Times, serif;
-     font-style: bold;
- }
-
- div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-  
-  div.text_container {
-    text-align: center;
-    padding: 10px 20px;
-    background-color: teal;
+.navbar-light .navbar-nav .nav-link:hover{
     color: white;
-  }
-
-  div.text_container a {
-        color: white;
-  }
-
-  div.transbox {
-    margin: 5%;
-    margin-top: 0;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    height: 700px;
-  }
-
- .a {
-     height: 5px;
-     background-color: black;
-     margin-right: 10%;
-     margin-left: 10%;
- }
-
- 
-#menu {
-    margin-right: 5%;
 }
 
-#background_image {
-    width : 100%;
-    position : absolute;
-    top: 0;
-    left: 0;
+.svnit_photo{
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
-.civil_photo {
-    height:auto;
-    width: 70%; 
-    margin-left: 5%;
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
 }
 
-.svnit_photo {
-    width:180px;
+.nit_photo{
+    width:80px;
     height: auto;
-    margin-left: 5%;
+    margin-left: 30px;
+    margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.tensegrity_photo {
-    display: block;
-     margin-left: auto;
-     margin-right: auto; 
-     width: 25%; 
-     height: 25%;
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-.bridge_photo {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto; 
-    width: 30%; 
-    height: 30%;
+
+
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bridge.jpeg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
 }
 
-.truss_photo {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto; 
-    width: 50%;
+.innovation-image{
+    display: flex;
+    justify-content: center;
 }
 
-.bottom_location .rounded-social-buttons {
-    margin-right: 10px;
+.innovation-image .innovation-title{
+    bottom: 0;
+    position:absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
 }
 
- @media (max-width: 600.98px) { 
-     .con{
-         border:2px solid transparent;
-     padding-left: 20px;
-     padding-right: 10px;
-     }
+.innovation-image .innovation-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
+    padding-bottom: 0;
+}
+
+.innovation-image .innovation-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
+}
+
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
  }
- @media (max-width: 600.98px) { 
-     .hello1{
-         height: 250px;
-         padding-right: 5%;
-         padding-left: 5%;
-         
-     }
-     .gd {
-         margin-left: auto;
-         margin-right: auto;
-         display: inline-block;
-         height: 150px;
-         width: 80%;
-         margin-top: 50px;
-         margin-bottom: 50px;
-     }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
  }
- @media (max-width: 600.98px) { 
-     .hello2{
-         height: 250px;
-     }
- }
- @media (max-width: 600.98px) { 
-     .hello3{
-         height: 250px;
-     }
- }
- @media (max-width: 600.98px) { 
-    .hello4{
-        padding-top: 4px;
-        text-align:center;
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(images/1911379.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.innovation-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.innovation-section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+.teams-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.teams-title{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.teams-title h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    /* color: rgb(20,34,41); */
+    /* color: white; */
+    /* border: 2px solid rgb(20,34,41); */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 14px 50px 14px 50px;
+    transition: 0.1s ease;
+}
+
+.teams-title h2:hover{
+    /* background-color: rgb(20,34,41);
+    color: rgb(245, 251, 253); */
+    background-color: white;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.projects{
+    width: 90%;
+    margin: 5%;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-box{
+    width: 80%;
+    height: 20.9vw;
+    margin: 10%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    /* background-color: black; */
+    border: 0.2px solid black;
+}
+
+.project-box img{
+    /* width: 100%; */
+    height: 17.9vw;
+    /* border-radius: 10px; */
+    border: 0.2px solid black;
+    /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); */
+}
+.project-box h2{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: black;
+    font-size: 1.7em;
+}
+
+.project-box a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.project-box a span:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
     }
-    @media (max-width: 600.98px) { 
-        .hello5{
-            padding-top: 4px;
-            text-align:center;
-        }
-        @media (max-width: 600.98px) { 
-            .hello6{
-                padding-top: 4px;
-                text-align:center;
-            }
-            @media (max-width: 600.98px) { 
-                .hello7{
-                    text-align:center;
-                }
+    .v2 {
+        height: 50px;
+    }
 
-@media (max-width : 600.98px) {
-    .bgr {
-        background-image: url(images/2v_dome-2.png);
-        background-size:100% 100%; 
-        background-color: rgba(255,255,255,0.7); 
-        background-blend-mode: lighten;
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    /* .main-div{
+        width: 100%;
+        height: 95vh;
+        background-image: url(images/Team_innovation.jpg);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
+    } */
+    .main-div{
+        background-image: url(images/bridge.jpeg);
+        height: 130vw;
+        /* background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
+    }
+    /* .innovation-image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
         background-repeat: no-repeat;
-    }
-    
-    .about-heading {
-        text-align: center;
+    } */
+
+    /* .innovation-image .innovation-title{
+        position: absolute;
+        top: 100px;
+    } */
+    .innovation-image .innovation-title h3{
+        font-size: 7vw;
+        padding-bottom: 0;
     }
 
-    .con {
-        margin-right: 5%;
+    .innovation-image .innovation-title h1{
+        font-size: 12vw;
+        padding-top: 0;
+    }
+
+    .about-section{
+        display: grid;
+    }
+
+    .write-up-about{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+     .about-us
+     {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 10px;
+     }
+
+     .about-us-content
+     {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+     }
+
+    .about-drishti-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-drishti-image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .innovation-section{
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: #202328;
+        color: #f8fafd;
+        background-image: url(images/1911379.jpg);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    }
+
+    .innovation-section h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
     }
     .svnit_photo {
         margin-left: 0%;
@@ -253,35 +371,306 @@ body {
         width: 130px;
         height: auto;
     }
-    .civil_photo {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .hello1 {
-        height: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .innovation-section p{
+        font-size: 17px;
+        text-align: justify;
     }
 
-    .heading {
-        font-size: 35px;
-    }
-    .project_photo , .tensegrity_photo, .truss_photo {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        height: auto;
+    /* .innovation-status{
+        display: grid;
         width: 100%;
+        margin-top: 25px;
     }
 
-    .bridge_photo{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        height: auto;
-        width: 105%;
+    .innovation-year-space{
+        width: 100%;
+        height: 0;
     }
-   
+
+    .innovation-year-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .innovation-year-image-box{
+        width: 84%;
+        margin: 6% 6% 6% 6%;
+    }
+
+    .innovation-year-image-box img{
+        width: 100%;
+        border: 0px solid transparent;
+        border-radius: 15px;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .innovation-year-link{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .innovation-year-text{
+        padding: 6% 10% 6% 10%;
+        text-align: left;
+    }
+
+    .innovation-year-text h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .innovation-year-text h4{
+        font-size: 16px;
+        color: rgba(20, 34, 41, 0.6);
+    }
+
+    .innovation-year-text h2{
+        font-size: 18px;
+        color: rgb(20, 34, 41);
+        letter-spacing: 1px;
+    }
+
+    .innovation-year-text a.envision-button{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 6px 30px 6px 30px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 30, 45);
+        border: 2px solid rgb(240, 30, 45);
+        border-radius: 10px;
+    }
+
+    .innovation-year-text a.envision-button:hover{
+        color: rgb(240, 30, 45);
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(240, 30, 45);
+    } */
+    .teams-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .teams-title{
+        text-align: center;
+        padding: 0px 0 0px 0;
+    }
+
+    .teams-title h2{
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 20px;
+        /* color: white; */
+        /* border: 2px solid white; */
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+        transition: 0.1s ease;
+    }
+
+    .teams-title h2:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
+    }
+    .projects{
+        width: 96%;
+        margin: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .project-box{
+        height: 36.8vw;
+        position: relative;
+    }
+    
+    .project-box img{
+        height: 28.8vw;
+    }
+    
+    .project-box h2{
+        position: absolute;
+        bottom: 2px;
+        left: 8px;
+        font-size: 0.7em;
+    }
+    
+    .project-box a span{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        z-index: 1;
+        background-color: black;
+        opacity: 0;
+        border-radius: 10px;
+        transition: 0.1s;
+    }
+    
+    .project-box a span:hover{
+        opacity: 0.5;
+        transition: 0.2s;
+    }
+}
+
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+        /* .innovation-image .innovation-title h3{
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .innovation-image .innovation-title h1{
+        font-weight: bolder;
+        letter-spacing: 6px;
+        font-size: 75px;
+        padding-bottom: 0px;
+    } */
+}
+ @media (max-width: 600.98px) {
+    .con{
+    border:2px solid transparent;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .hello1{
+    height: 250px;
+    }
+
+    .hello2{
+    height: 250px;
+    }
+
+    .hello3{
+    height: 250px;
+    }
+    .about_us_content
+    {
+        font-weight: 400;
+    }
+    .pad_data
+    {
+        font-weight: 400;
+    }
+        /* .innovation-image .innovation-title h3{
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .innovation-image .innovation-title h1{
+        font-weight: bolder;
+        letter-spacing: 6px;
+        font-size: 90px;
+        padding-bottom: 0px;
+    } */
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    /* h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    } */
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .innovation-image .innovation-title{
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 1200)
+{
+    /* .innovation-image{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80vh;
+        background-image: url(images/irc2020_1.jpg),url(images/irc2019final_3.jpg);
+        background-color: black;
+        background-size: contain;
+        background-position:
+            bottom 0px left 0px,
+            bottom 90px left 0px;
+        background-repeat: no-repeat;
+    }
+
+    .innovation-image .innovation-title{
+        top: 20px;
+        position: absolute;
+        text-align: center;
+        color: #fefefe;
+        text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .innovation-image .innovation-title h3{
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .innovation-image .innovation-title h1{
+        font-weight: bolder;
+        letter-spacing: 6px;
+        font-size: 60px;
+        padding-bottom: 0px;
+    } */
 }

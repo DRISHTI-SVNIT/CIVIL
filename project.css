@@ -1,0 +1,68 @@
+.project{
+    padding: 10vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+.image-box{
+    /* height: 100%; */
+    width: 46vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.image{
+    border: 0px;
+    height: 20vw;
+    align-self: center;
+    align-items: center;
+}
+.ref-aim{
+    text-align: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+.ref-aim h3{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    letter-spacing: 0.05em;    
+}
+.ref-aim p{
+    font-size: 22px;
+    text-align: justify;
+}
+.ref-aim li{
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+@media (max-width:740px){
+.project{
+    height: 30vw;
+}
+.image-box{
+    width: 100%;
+}
+.image{
+    width: 80%;
+    height: auto;
+}
+.ref-aim h1{
+    font-size: 30px;
+}
+.ref-aim h3{
+    font-size: 20px;
+}
+
+.ref-aim p{
+    font-size: 15px;
+    text-align: justify;
+}
+}
