@@ -6,7 +6,7 @@
 }
 .image-box{
     /* height: 100%; */
-    width: 46vw;
+    width: 30%;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -25,6 +25,7 @@
     text-align: center;
     align-items: center;
     padding: 2vw;
+    width: 70%;
 }
 
 .ref-aim h3{
@@ -45,7 +46,9 @@
 
 @media (max-width:740px){
 .project{
-    height: 30vw;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
 }
 .image-box{
     width: 100%;
@@ -53,6 +56,9 @@
 .image{
     width: 80%;
     height: auto;
+}
+.ref-aim{
+    width: 100%;
 }
 .ref-aim h1{
     font-size: 30px;
