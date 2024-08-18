@@ -1,45 +1,46 @@
-html
-{
+html {
     overflow-x: hidden;
 }
-.navbar-nav{
+
+.navbar-nav {
     /* font-family: Arial; */
     font-size: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: rgb(200, 200, 200);
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: white;
 }
 
-.svnit_photo{
-   width:150px;
-   height: auto;
-   margin-left: 10px;
-   margin-top: 0px;
-   margin-bottom: 0px;
+.svnit_photo {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .v1 {
     height: 70px;
     border-left: 1px solid white;
     position: relative;
-    top : 0;
+    top: 0;
     margin-left: 0%;
 }
+
 .v2 {
     height: 70px;
     border-left: 1px solid black;
     position: relative;
-    top : 0;
+    top: 0;
     margin-left: 0%;
 }
 
-.nit_photo{
-    width:80px;
+.nit_photo {
+    width: 80px;
     height: auto;
     margin-left: 30px;
     margin-right: 10px;
@@ -47,89 +48,77 @@ html
     margin-bottom: 0px;
 }
 
-body
-{
+body {
     font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
 
-
-
-
-
-
-
-
-
-.main-div{
+.main-div {
     width: 100%;
     height: 100vh;
-    background-image: url(images/bridge.jpeg);
-    background-size:contain;
-    background-position:center;
+    background-image: url(images/civil5.jpg);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
 }
 
-.innovation-image{
+.innovation-image {
     display: flex;
     justify-content: center;
 }
 
-.innovation-image .innovation-title{
+.innovation-image .innovation-title {
     bottom: 0;
-    position:absolute;
+    position: absolute;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 30px black;
 }
 
-.innovation-image .innovation-title h3{
+.innovation-image .innovation-title h3 {
     font-weight: bold;
     letter-spacing: 0.7vw;
     font-size: 4vw;
     padding-bottom: 0;
 }
 
-.innovation-image .innovation-title h1{
+.innovation-image .innovation-title h1 {
     font-weight: bolder;
     letter-spacing: 0.5vw;
     font-size: 8vw;
     padding-bottom: 3vw;
 }
 
-
-.about-section{
+.about-section {
     display: flex;
 }
 
-.write-up-about{
+.write-up-about {
     width: 65%;
     padding: 20px 30px 30px 70px;
 }
 
- .about-us
- {
+.about-us {
     text-align: left;
     font-size: 50px;
     padding-bottom: 10px;
- }
+}
 
- .about-us-content
- {
+.about-us-content {
     text-align: justify;
     font-size: 20px;
     font-weight: 400;
- }
+}
 
-.about-drishti-image{
+.about-drishti-image {
     width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.innovation-section{
+.innovation-section {
     width: 100%;
     padding: 40px 150px 40px 150px;
     background-color: #202328;
@@ -140,10 +129,10 @@ body
     background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    text-shadow: 0px 0px 30px rba(0, 0, 0, 0.5);
 }
 
-.innovation-section h1{
+.innovation-section h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
@@ -151,19 +140,12 @@ body
     padding: 30px;
 }
 
-.innovation-section p{
+.innovation-section p {
     font-size: 20px;
     text-align: justify;
 }
 
-
-
-
-
-
-
-
-.teams-head{
+.teams-head {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -171,12 +153,12 @@ body
     margin-top: 50px;
 }
 
-.teams-title{
+.teams-title {
     text-align: center;
     padding: 20px 0 0 0;
 }
 
-.teams-title h2{
+.teams-title h2 {
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 4vw;
@@ -189,7 +171,7 @@ body
     transition: 0.1s ease;
 }
 
-.teams-title h2:hover{
+.teams-title h2:hover {
     /* background-color: rgb(20,34,41);
     color: rgb(245, 251, 253); */
     background-color: white;
@@ -197,7 +179,7 @@ body
     transition: 0.2s ease;
 }
 
-.projects{
+.projects {
     width: 90%;
     margin: 5%;
     margin-top: 0;
@@ -205,7 +187,7 @@ body
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.project-box{
+.project-box {
     width: 80%;
     height: 20.9vw;
     margin: 10%;
@@ -216,14 +198,15 @@ body
     border: 0.2px solid black;
 }
 
-.project-box img{
+.project-box img {
     /* width: 100%; */
     height: 17.9vw;
     /* border-radius: 10px; */
     border: 0.2px solid black;
     /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.3); */
 }
-.project-box h2{
+
+.project-box h2 {
     position: absolute;
     bottom: 0px;
     left: 20px;
@@ -231,12 +214,12 @@ body
     font-size: 1.7em;
 }
 
-.project-box a span{
+.project-box a span {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 1;
     background-color: black;
     opacity: 0;
@@ -244,37 +227,33 @@ body
     transition: 0.1s;
 }
 
-.project-box a span:hover{
+.project-box a span:hover {
     opacity: 0.5;
     transition: 0.2s;
 }
 
-
-
-@media (max-width:640px){
+@media (max-width:640px) {
     .v1 {
         height: 50px;
     }
     .v2 {
         height: 50px;
     }
-
-    .nit_photo{
-        width:50px;
+    .nit_photo {
+        width: 50px;
         height: auto;
         margin-left: 7px;
         margin-right: 3px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
     /* .main-div{
         width: 100%;
         height: 95vh;
         background-image: url(images/Team_innovation.jpg);
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
     } */
-    .main-div{
+    .main-div {
         background-image: url(images/bridge.jpeg);
         height: 130vw;
         /* background-position: bottom;
@@ -294,57 +273,46 @@ body
             bottom 90px left 0px;
         background-repeat: no-repeat;
     } */
-
     /* .innovation-image .innovation-title{
         position: absolute;
         top: 100px;
     } */
-    .innovation-image .innovation-title h3{
+    .innovation-image .innovation-title h3 {
         font-size: 7vw;
         padding-bottom: 0;
     }
-
-    .innovation-image .innovation-title h1{
+    .innovation-image .innovation-title h1 {
         font-size: 12vw;
         padding-top: 0;
     }
-
-    .about-section{
+    .about-section {
         display: grid;
     }
-
-    .write-up-about{
+    .write-up-about {
         width: 100%;
         padding: 0px 20px 0px 20px;
     }
-
-     .about-us
-     {
+    .about-us {
         text-align: left;
         font-size: 25px;
         padding-bottom: 10px;
-     }
-
-     .about-us-content
-     {
+    }
+    .about-us-content {
         text-align: justify;
         font-size: 14px;
         font-weight: 400;
-     }
-
-    .about-drishti-image{
+    }
+    .about-drishti-image {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
-    .about-drishti-image img{
+    .about-drishti-image img {
         width: 80%;
         height: auto;
     }
-
-    .innovation-section{
+    .innovation-section {
         width: 100%;
         padding: 20px 20px 20px 20px;
         background-color: #202328;
@@ -355,10 +323,9 @@ body
         background-position: top;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+        text-shadow: 0px 0px 30px rba(0, 0, 0, 0.5);
     }
-
-    .innovation-section h1{
+    .innovation-section h1 {
         text-align: center;
         font-size: 50px;
         font-weight: bolder;
@@ -371,11 +338,10 @@ body
         width: 130px;
         height: auto;
     }
-    .innovation-section p{
+    .innovation-section p {
         font-size: 17px;
         text-align: justify;
     }
-
     /* .innovation-status{
         display: grid;
         width: 100%;
@@ -451,19 +417,18 @@ body
         background-color: rgb(255, 255, 255);
         border: 2px solid rgb(240, 30, 45);
     } */
-    .teams-head{
+    .teams-head {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
     }
-    .teams-title{
+    .teams-title {
         text-align: center;
         padding: 0px 0 0px 0;
     }
-
-    .teams-title h2{
+    .teams-title h2 {
         font-weight: bold;
         letter-spacing: 1px;
         font-size: 20px;
@@ -473,61 +438,53 @@ body
         padding: 10px 20px 10px 20px;
         transition: 0.1s ease;
     }
-
-    .teams-title h2:hover{
+    .teams-title h2:hover {
         background-color: white;
         color: black;
         transition: 0.2s ease;
     }
-    .projects{
+    .projects {
         width: 96%;
         margin: 2%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
-    .project-box{
+    .project-box {
         height: 36.8vw;
         position: relative;
     }
-    
-    .project-box img{
+    .project-box img {
         height: 28.8vw;
     }
-    
-    .project-box h2{
+    .project-box h2 {
         position: absolute;
         bottom: 2px;
         left: 8px;
         font-size: 0.7em;
     }
-    
-    .project-box a span{
+    .project-box a span {
         position: absolute;
         width: 100%;
         height: 100%;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
         z-index: 1;
         background-color: black;
         opacity: 0;
         border-radius: 10px;
         transition: 0.1s;
     }
-    
-    .project-box a span:hover{
+    .project-box a span:hover {
         opacity: 0.5;
         transition: 0.2s;
     }
 }
 
-@media(max-width:978px)
-{
-    .hello
-    {
+@media(max-width:978px) {
+    .hello {
         padding-top: 50px;
     }
-        /* .innovation-image .innovation-title h3{
+    /* .innovation-image .innovation-title h3{
         font-weight: bold;
         letter-spacing: 6px;
         font-size: 40px;
@@ -541,11 +498,12 @@ body
         padding-bottom: 0px;
     } */
 }
- @media (max-width: 600.98px) {
-    .con{
-    border:2px solid transparent;
-    padding-left: 20px;
-    padding-right: 10px;
+
+@media (max-width: 600.98px) {
+    .con {
+        border: 2px solid transparent;
+        padding-left: 20px;
+        padding-right: 10px;
     }
     .svnit_photo {
         margin-left: 0%;
@@ -553,26 +511,22 @@ body
         width: 130px;
         height: auto;
     }
-    .hello1{
-    height: 250px;
+    .hello1 {
+        height: 250px;
     }
-
-    .hello2{
-    height: 250px;
+    .hello2 {
+        height: 250px;
     }
-
-    .hello3{
-    height: 250px;
+    .hello3 {
+        height: 250px;
     }
-    .about_us_content
-    {
+    .about_us_content {
         font-weight: 400;
     }
-    .pad_data
-    {
+    .pad_data {
         font-weight: 400;
     }
-        /* .innovation-image .innovation-title h3{
+    /* .innovation-image .innovation-title h3{
         font-weight: bold;
         letter-spacing: 6px;
         font-size: 40px;
@@ -586,29 +540,28 @@ body
         padding-bottom: 0px;
     } */
 }
-.dob .x
-{
-    color:white;
-     padding-top:30px;
+
+.dob .x {
+    color: white;
+    padding-top: 30px;
 }
-@media(max-width:800px)
-{
-    .dob .x{
-        padding-top:4px;
+
+@media(max-width:800px) {
+    .dob .x {
+        padding-top: 4px;
     }
 }
-.dob
-{
+
+.dob {
     padding-left: 50px;
     padding-top: 50px;
     padding-right: 50px;
 }
-@media(max-width:450px)
-{
-    .dob
-    {
+
+@media(max-width:450px) {
+    .dob {
         padding-right: 0px;
-        padding-left:0px;
+        padding-left: 0px;
     }
     /* h1{
         text-align: center;
@@ -617,26 +570,23 @@ body
         letter-spacing: 2px;
         padding: 30px;
     } */
-    .main-div{
+    .main-div {
         background-position: bottom;
-        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset;
     }
-    .innovation-image .innovation-title{
+    .innovation-image .innovation-title {
         position: relative;
         top: 10px;
     }
 }
 
-@media(max-width:978px)
-{
-    .ifr
-    {
+@media(max-width:978px) {
+    .ifr {
         padding-top: 80px;
     }
 }
 
-@media (min-width: 1200)
-{
+@media (min-width: 1200) {
     /* .innovation-image{
         position: relative;
         display: flex;
